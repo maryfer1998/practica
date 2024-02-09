@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D3D7D7;
+}
+nav {
+    background-color: #333;
+    color: white;
+    padding: 6px;
+}
+h1 {
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+h2 {
+    color: black;
+    text-align: center;
+}
+ol {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+ol a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: green;
+}
+ol a:hover, ol a:active, ol a:focus {
+    background-color: #007BFF;
+    color: white;
+}
+.icon {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid red;
+}
+/*lo del crud */
+
+header, footer {
+    background-color: #D3D7D7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 5px;
+}
+input, select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: green;
+    padding: 8px 16px;
+}
+a[href="index.php"] {
+    text-decoration: none;
+    /* Elimina el subrayado del enlace */
+}
+button[type="button"] {
+    background-color: green;
+    /* Color de fondo */
+    color: #fff;
+    /* Color del texto */
+    padding: 8px 16px;
+    /* Espaciado interno del botón */
+    border: none;
+    /* Elimina el borde del botón */
+    border-radius: 4px;
+    /* Bordes redondeados */
+    cursor: pointer;
+}
+button[type="button"]:hover {
+    background-color: #555;
+    padding: 8px 16px;
+    /* Cambia el color al hacer hover */
+}
